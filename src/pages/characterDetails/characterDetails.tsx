@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { UserContext } from '../../context/userContext'; // Adjust the path as necessary
+import { UserContext } from '../../context/userContext';
 import './characterDetails.css';
 
 interface Champion {

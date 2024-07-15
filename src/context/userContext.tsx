@@ -10,7 +10,7 @@ export interface UserContextInterface {
   user: User;
   setUser: Dispatch<SetStateAction<User>>;
   logout: () => void;
-  toggleFavorite: (championId: string) => void; // Dodajemy toggleFavorite do interfejsu
+  toggleFavorite: (championId: string) => void;
 }
 
 const defaultContext: UserContextInterface = {
@@ -21,7 +21,7 @@ const defaultContext: UserContextInterface = {
   },
   setUser: () => {},
   logout: () => {},
-  toggleFavorite: (championId: string) => {}, // Domyślna implementacja toggleFavorite
+  toggleFavorite: (championId: string) => {},
 };
 
 export const UserContext = createContext<UserContextInterface>(defaultContext);
@@ -38,7 +38,6 @@ export const UserProvider = ({ children }: UserProviderProps) => {
   };
 
   const toggleFavorite = (championId: string) => {
-    // Implementacja toggleFavorite
     const isFavorite = user.favorites.includes(championId);
     let updatedFavorites: string[];
 

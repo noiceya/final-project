@@ -19,11 +19,9 @@ function Login() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // Replace with your own credentials
     const ownUsername = "emily";
     const ownPassword = "emilyspass";
 
-    // Check if the entered credentials match your own credentials
     if (name === ownUsername && pass === ownPassword) {
       const user: User = {
         name: ownUsername,
@@ -34,7 +32,6 @@ function Login() {
       setUser(user);
       navigate('/home');
     } else {
-      // Optionally, send the credentials to the dummyJSON API for additional testing
       try {
         const response = await axios.post('https://dummyjson.com/auth/login', {
           username: name,

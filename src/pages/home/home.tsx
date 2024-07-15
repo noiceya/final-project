@@ -42,7 +42,7 @@ function Home() {
   };
 
   const handleProfileClick = () => {
-    navigate('/user-details'); // Nawigacja do '/user-details'
+    navigate('/user-details');
   };
 
   const handleChampionClick = (championId: string) => {

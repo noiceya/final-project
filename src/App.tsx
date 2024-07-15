@@ -19,7 +19,6 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/character/:id" element={<CharacterDetails />} />
-          <Route path="/character/:id" element={<CharacterDetails />} />
       </Routes>
 
       </UserProvider>
