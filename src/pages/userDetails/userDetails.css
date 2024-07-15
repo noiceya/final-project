@@ -1,0 +1,27 @@
+#root 
+{
+    width: 100vw;
+}
+
+.favorites-container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.favorite-champion-image 
+{
+    margin: 2vw;
+    flex-basis: calc(25% - 4vw); 
+    box-sizing: border-box;
+}
+
+#goHomeBtn
+{
+    color: gray !important;
+    margin: 2vw;
+}
+

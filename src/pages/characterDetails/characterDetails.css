@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+@font-face 
+{
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+@font-palette-values --Grays 
+{
+    font-family: Rocher;
+    base-palette: 9;
+}
+
+#root
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.character-details
+{
+    background-color: rgba(255, 255, 255, 0.536);
+    width: 55vw;
+    padding: 3vw;
+    border-radius: 20px;
+    margin: none !important;
+}
+
+.champName
+{
+    font-family: 'Rocher' !important;
+    font-palette: --Grays;
+    font-size: 4rem !important;
+    text-align: center;
+    color: rgb(184, 186, 208);
+}
+
+.champTitle
+{
+    font-family: 'Rocher' !important;
+    font-palette: --Grays;
+    font-palette: --Grays;
+    font-size: 2rem !important;
+    text-align: center;
+}
+
+.character-details > .champ-img
+{
+    width: 30vw;
+}
+
+.character-details > .champ-img > img
+{
+    width: 90%;
+}
+
+.champ-info
+{
+    font-family: "Audiowide", cursive;
+    width: 50vw;
+    text-align: center;
+}
