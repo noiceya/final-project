@@ -103,6 +103,8 @@ To run this project you must meet the following requirements.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+To run the project you must log in to account emily with password emilyspass.
+
 ![image](https://github.com/user-attachments/assets/78c65147-ab6f-46bd-9c8a-7d245e136a84)
 
 ![image](https://github.com/user-attachments/assets/b61c5ef6-b9dc-4dd0-bfa3-c5a723a52634)
