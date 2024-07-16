@@ -103,13 +103,11 @@ To run this project you must meet the following requirements.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-![image](https://github.com/user-attachments/assets/27d900a1-4121-45cd-bec5-0906aac03886)
+![image](https://github.com/user-attachments/assets/78c65147-ab6f-46bd-9c8a-7d245e136a84)
 
-![image](https://github.com/user-attachments/assets/fcf34fa5-59bc-4d6f-9652-f7b08dd3a509)
+![image](https://github.com/user-attachments/assets/b61c5ef6-b9dc-4dd0-bfa3-c5a723a52634)
 
-![image](https://github.com/user-attachments/assets/eb38e190-2e8b-4952-9cfe-3ff4d6cecec3)
-
-![image](https://github.com/user-attachments/assets/ac2867db-b277-4082-81ea-263b6c435bd0)
+![image](https://github.com/user-attachments/assets/7a1a40a0-8461-4f92-a2a4-5ec9fffa0c8b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
