@@ -55,6 +55,7 @@ One site page with usage of League Of Legends API. Final project for REACT cours
 
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 * [![HTML](https://img.shields.io/badge/HTML-AAA333?style=for-the-badge&logo=html&logoColor=white)]()
 * [![CSS](https://img.shields.io/badge/CSS-348ceb?style=for-the-badge&logo=css&logoColor=white)]()
 * League Of Legends API
